@@ -22,7 +22,6 @@ public class HeightOfBinary {
             return -1;
         else
         {
-            /* compute the depth of each subtree */
             int lDepth = maxDepth(node.left);
             int rDepth = maxDepth(node.right);
 
